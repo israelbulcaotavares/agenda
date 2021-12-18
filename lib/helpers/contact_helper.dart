@@ -113,7 +113,7 @@ class Contact {
 
   Contact.fromMap(Map map){
     id =    map[idColumn];
-    name =  map[emailColumn];
+    name =  map[nameColumn];
     email = map[emailColumn];
     phone = map[phoneColumn];
     img =   map[imgColumn];
